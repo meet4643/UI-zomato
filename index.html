@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Zomato</title>
+    <link rel="icon" type="image/x-icon" href="images/zomato.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhgit initPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <div class="background_image">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fa fa-mobile" aria-hidden="true"></i> Get the
+                  App</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#"
+                  >Investor Relations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Add restaurant</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Log in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Sign up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="for_text text-white d-flex justify-content-center flex-column align-items-center"
+      >
+        <img src="images/zomato_text.avif" alt="zomato" />
+        <h1>Discover the best food & drinks in Ahmedabad</h1>
+
+        <div class="for_search d-flex align-items-center">
+          <i class="fa fa-map-marker text-danger" aria-hidden="true"></i>
+          <input type="text" placeholder="Ahmedabad" class="border-0" />
+          <i class="fa fa-caret-down text-dark drop" aria-hidden="true"></i>
+          <i class="fa fa-search text-secondary" aria-hidden="true"></i>
+          <input
+            type="text"
+            placeholder="Search for restaurant, cuisine or a dish"
+            class="border-0 w-100"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- header end -->
+
+    <!-- card start -->
+    <div class="container">
+      <div class="row order_online">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/card1.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><b>Order Online</b></h5>
+              <p class="card-text">Stay home and order to your doorstep</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/card2.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><b>Dining</b></h5>
+              <p class="card-text">View the city's favourite dining venues</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card end -->
+
+    <!-- collection start  -->
+    <div class="container">
+      <h2><b>Collections</b></h2>
+      <div class="d-flex justify-content-between">
+        <p class="collection_text">
+          Explore curated lists of top restaurants, cafes, pubs, and bars in
+          Ahmedabad, based on trends
+        </p>
+        <p class="text-danger">
+          All collections in Ahmedabad
+          <i class="fa fa-caret-right" aria-hidden="true"></i>
+        </p>
+      </div>
+
+      <div class="row text-white">
+        <div class="col-md-3 collection_image">
+          <img
+            src="images/collection1.avif"
+            class="collection_photo"
+            alt="Forest"
+          />
+          <div class="collection_photo_txt">
+            <p class="mb-0">Great Buffets</p>
+            <p>7 Places <i class="fa fa-caret-right" aria-hidden="true"></i></p>
+          </div>
+        </div>
+        <div class="col-md-3 collection_image">
+          <img
+            src="images/collection2.avif"
+            class="collection_photo"
+            alt="Forest"
+          />
+          <div class="collection_photo_txt">
+            <p class="mb-0">Picturesque Cafes</p>
+            <p>8 Places <i class="fa fa-caret-right" aria-hidden="true"></i></p>
+          </div>
+        </div>
+        <div class="col-md-3 collection_image">
+          <img
+            src="images/collection3.avif"
+            class="collection_photo"
+            alt="Forest"
+          />
+          <div class="collection_photo_txt">
+            <p class="mb-0">Luxury At Its Best</p>
+            <p>
+              10 Places <i class="fa fa-caret-right" aria-hidden="true"></i>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 collection_image">
+          <img
+            src="images/collection4.avif"
+            class="collection_photo"
+            alt="Forest"
+          />
+          <div class="collection_photo_txt">
+            <p class="mb-0">Gujarati Thali</p>
+            <p>
+              10 Places <i class="fa fa-caret-right" aria-hidden="true"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- collection end  -->
+
+    <!-- popular start  -->
+    <div class="container popular_main">
+      <h2 class="mb-5">Popular localities in and around <b>Ahmedabad</b></h2>
+
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>Bodakdev</h5>
+                <p>341 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>Navrangpura</h5>
+                <p>292 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>Prahlad Nagar</h5>
+                <p>178 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>Satelite</h5>
+                <p>329 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>Vastrapur</h5>
+                <p>213 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>C G Road</h5>
+                <p>90 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>Gurukul</h5>
+                <p>82 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-between align-items-center places"
+            >
+              <div>
+                <h5>Thaltej</h5>
+                <p>207 places</p>
+              </div>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card popular">
+            <div
+              class="card-body d-flex justify-content-center align-items-center places"
+            >
+              <h5>see more</h5>
+              &nbsp;&nbsp;
+              <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- popular end  -->
+
+    <!-- get start  -->
+    <div class="get">
+      <div class="d-flex justify-content-center">
+        <div>
+          <img src="images/getapp.avif" class="get_img" alt="" />
+        </div>
+        <div>
+          <h1 class="mb-3"><b>Get the Zomato app</b></h1>
+          <p>
+            We will send you a link, open it on your phone to download<br />the
+            app
+          </p>
+          <form>
+            <input type="radio" name="fav_language" value="Email" />
+            <label for="email" class="radio_email">Email</label>
+            <input type="radio" name="fav_language" value="Phone" />
+            <label for="phone">Phone</label><br />
+            <input type="email" placeholder="Email" class="input_email mb-4" />
+            <button class="text-white bg-danger">Share App Link</button>
+          </form>
+          <p class="text-secondary">Download app from</p>
+          <img src="images/googleplay.webp" class="g_play" alt="" />
+          <img src="images/appstore.webp" class="g_play" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- get end  -->
+
+    <!-- explore start  -->
+    <div class="container explore_main">
+      <h2 class="mb-4"><b>Explore options near me</b></h2>
+
+      <div class="card mb-3 explore">
+        <div
+          class="card-body d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <h5>Popular cuisines near me</h5>
+          </div>
+          <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div class="card mb-3 explore">
+        <div
+          class="card-body d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <h5>Popular restaurant types near me</h5>
+          </div>
+          <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div class="card mb-3 explore">
+        <div
+          class="card-body d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <h5>Top Restaurant Chains</h5>
+          </div>
+          <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div class="card explore">
+        <div
+          class="card-body d-flex justify-content-between align-items-center"
+        >
+          <div>
+            <h5>Cities We Deliver To</h5>
+          </div>
+          <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <!-- explore end  -->
+
+    <!-- footer start  -->
+    <div class="bg_footer">
+      <div class="container py-4 pt-5">
+        <div class="d-flex justify-content-between zomato_logo">
+          <img src="images/zomato_footer.avif" alt="" />
+          <div class="d-flex for_border">
+            <div class="india">
+              <img src="images/flag-of-india.svg" alt="" class="india_logo" />
+              India <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+            </div>
+            <div class="language">
+              <img src="images/language.svg" alt="" /> English
+              <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex footer_content pt-5">
+          <div class="first">
+            <ul>
+              <li class="text-dark"><b>ABOUT ZOMATO</b></li>
+              <li>Who We Are</li>
+              <li>Blog</li>
+              <li>Work With Us</li>
+              <li>Investor Relations</li>
+              <li>Report Fraud</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="second">
+            <ul>
+              <li class="text-dark"><b>ZOMAVERSE</b></li>
+              <li>Zomato</li>
+              <li>Blinkit</li>
+              <li>Feeding India</li>
+              <li>Hyperpure</li>
+              <li>Zomaland</li>
+            </ul>
+          </div>
+          <div class="third">
+            <ul>
+              <li class="text-dark"><b>FOR RESTAURANTS</b></li>
+              <li>Partner With Us</li>
+              <li>Apps For You</li>
+
+              <li class="text-dark mt-3">
+                <b>FOR ENTERPRISES</b>
+              </li>
+              <li>Zomato For Work</li>
+            </ul>
+          </div>
+          <div class="forth">
+            <ul>
+              <li class="text-dark"><b>LEARN MORE</b></li>
+              <li>Privacy</li>
+              <li>Security</li>
+
+              <li>Terms</li>
+              <li>Sitemap</li>
+            </ul>
+          </div>
+          <div class="fifth">
+            <li class="text-dark"><b>SOCIAL LINKS</b></li>
+            <li class="social_icon">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li>
+              <img src="images/appstore.webp" alt="" class="app_store mt-3" />
+            </li>
+            <li>
+              <img src="images/googleplay.webp" alt="" class="app_store mt-2" />
+            </li>
+          </div>
+        </div>
+
+        <hr />
+        <p>
+          By continuing past this page, you agree to our Terms of Service,
+          Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+          properties of their respective owners. 2008-2022 &copy; Zomato™ Ltd.
+          All rights reserved.
+        </p>
+      </div>
+    </div>
+    <!-- footer start  -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
